@@ -1,0 +1,8 @@
+{
+  "name": "securevault-monorepo",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
+}
