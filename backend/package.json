@@ -1,0 +1,32 @@
+{
+  "name": "securevault-backend",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf artifacts cache deployments",
+    "build": "hardhat compile",
+    "deploy:localhost": "hardhat deploy --network localhost",
+    "deploy:anvil": "hardhat deploy --network anvil",
+    "deploy:sepolia": "hardhat deploy --network sepolia"
+  },
+  "devDependencies": {
+    "@fhevm/hardhat-plugin": "0.3.0-1",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.4",
+    "@nomicfoundation/hardhat-ethers": "^3.0.6",
+    "@nomicfoundation/hardhat-verify": "^2.0.11",
+    "@typechain/hardhat": "^9.1.0",
+    "@zama-fhe/relayer-sdk": "0.3.0-5",
+    "ethers": "^6.13.4",
+    "hardhat": "^2.22.17",
+    "hardhat-deploy": "^0.12.4",
+    "hardhat-gas-reporter": "^2.2.1",
+    "rimraf": "^5.0.5",
+    "solidity-coverage": "^0.8.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@fhevm/solidity": "0.9.1"
+  }
+}
