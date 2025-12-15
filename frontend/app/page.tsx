@@ -1,5 +1,6 @@
 "use client";
 
+// Main application page component
 import { useMemo, useState } from "react";
 import { ethers } from "ethers";
 import { MetaMaskProvider, useMetaMaskProvider } from "@/hooks/metamask/useMetaMaskProvider";
