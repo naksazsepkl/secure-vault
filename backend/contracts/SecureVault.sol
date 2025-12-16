@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+// SecureVault smart contract for encrypted identity management
 pragma solidity ^0.8.24;
 
 import {FHE, euint8, euint32, ebool, eaddress, externalEuint8, externalEuint32, externalEbool} from "@fhevm/solidity/lib/FHE.sol";
