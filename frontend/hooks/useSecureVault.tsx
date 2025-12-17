@@ -1,5 +1,6 @@
 "use client";
 
+// SecureVault hook for contract interactions
 import { ethers } from "ethers";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
